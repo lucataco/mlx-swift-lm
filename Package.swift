@@ -63,7 +63,7 @@ let package = Package(
         .default(enabledTraits: ["FoundationModelsIntegration"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/PrismML-Eng/mlx-swift", branch: "prism"),
+        .package(url: "https://github.com/lucataco/mlx-swift", branch: "prism"),
     ],
     targets: [
         .target(
